@@ -1,0 +1,15 @@
+.{
+    .name = "aa",
+    .version = "0.0.0",
+    .dependencies = .{
+        .ded = .{
+            .url = "git+https://github.com/tsoding/ded?ref=master#ea30e9d6ee1c0d52aa11f9386920b884987a6b55",
+            .hash = "1220fb503716fa594e22c70ab99e366d5cd61dd7e9f2c94237eaaf7c45af4553c7e3",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
