@@ -28,7 +28,6 @@ pub fn build(b: *std.Build) void {
     exe.linkSystemLibrary("SDL2");
     exe.linkSystemLibrary("freetype");
     exe.linkSystemLibrary("m");
-    exe.linkSystemLibrary("gl");
     exe.linkSystemLibrary("glew");
     exe.addIncludePath(.{ .cwd_relative = "/usr/include/freetype2" });
 
